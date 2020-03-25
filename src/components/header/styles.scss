@@ -5,14 +5,14 @@ header {
     margin: 0;
     padding: 0 10px;
     background: black;
-    .wrap {
+    [data-test="wrap"] {
         position: relative;
         display: block;
         width: 100%;
         height: 100%;
         margin: 0 auto;
         max-width: 980px;
-        .logo {
+        [data-test="logo"] {
             display: block;
             width: 120px;
             position: absolute;
