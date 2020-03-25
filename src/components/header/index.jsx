@@ -4,10 +4,10 @@ import Logo from '../../assets/logo.png';
 
 const Header = (props) => {
     return (
-        <header className="headerComponent">
-            <div className="wrap">
-                <div className="logo">
-                    <img className="logo-adidas" src={Logo} alt="logo"/>
+        <header data-test="headerComponent">
+            <div data-test="wrap">
+                <div data-test="logo">
+                    <img data-test="logo-adidas" src={Logo} alt="logo"/>
                 </div>
             </div>
         </header>

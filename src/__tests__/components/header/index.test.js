@@ -7,19 +7,25 @@ const setUp = (props={}) => {
     return component;
 };
 
+const findByTestAttr = (component, attr) => {
+    const elem = component.find(`[data-test='${attr}']`);
+    return elem;
+}
+
 describe('Header Component', () => {
+    
     let component;
     beforeEach(() => {
         component = setUp();
     });
 
     it('It should render without errors', () => {
-        const wrapper = component.find('.headerComponent');
+        const wrapper = findByTestAttr(component, 'headerComponent');
         expect(wrapper.length).toBe(1);
     });
 
     it('It should render a logo', () => {
-        const logo = component.find('.logo-adidas');
+        const logo = findByTestAttr(component, 'logo-adidas');
         expect(logo.length).toBe(1);
     });
 });
