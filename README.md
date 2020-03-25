@@ -1,3 +1,7 @@
+## Big thank you to SimpleTut team for great tutorials!
+Youtube: https://www.youtube.com/channel/UC7Rux8g2yrvMoOsEvFm_OGA
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
