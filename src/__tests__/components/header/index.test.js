@@ -8,7 +8,6 @@ const setUp = (props={}) => {
 };
 
 describe('Header Component', () => {
-
     let component;
     beforeEach(() => {
         component = setUp();
